@@ -34,8 +34,8 @@
 
 * **Language:** Vanilla PHP & JavaScript
 * **Structure:** Custom MVC implementation
-* **Frontend:** HTML5, CSS3, Bootstrap framework
-* **Database:** MySQL (User management focus)
+* **Frontend:** HTML5, CSS3, Bootstrap 
+* **Database:** MySQL 
 
 
 ## 🔧 Installation & Setup
