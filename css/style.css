@@ -1,0 +1,233 @@
+@font-face {
+    font-family: bellagia;
+    src: url(fonts/bellagia.ttf)
+}
+
+@font-face {
+    font-family: quicksand;
+    src: url(fonts/Quicksand-VariableFont_wght.ttf)
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+
+    font-family: quicksand;
+    font-size: 18px;
+}
+
+b {
+    font-size: 22px;
+}
+
+body {
+    background-color: #FFF8E7;
+    padding-top: 100px;
+}
+
+h4 {
+    color: #646464;
+}
+
+.beige {
+    color: #FFF8E7;
+}
+
+.vonal {
+    border-top: 7px solid #262626;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.vonal-light {
+    border-top: 5px solid #FFF8E7;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+.check-dark:checked {
+    background-color: #262626;
+    border-color: #262626;
+}
+
+/* NAVBAR */
+
+.navbar {
+    background-color: #FFF8E7;
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-family: bellagia;
+}
+
+.navbar-brand:hover {
+    color: #000000;
+}
+
+.nav-link {
+    color: #262626;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.navbar-toggler {
+    border: 0px;
+}
+
+.navbar-toggler-icon {
+    background-image: url(/superscent/img/hamburger.png);
+}
+
+/* LOGIN AND REGISTRATION PAGE */
+.login-container {
+    margin-top: 100px;
+}
+
+.btn-login {
+    color: #FFF8E7;
+    margin-top: 10px;
+    background-color: #282828;
+    border-color: #282828;
+    width: 100%;
+}
+
+.btn-login:hover {
+    color: #FFFFFF;
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.form-error {
+    color: #e2004b;
+}
+
+.form-success {
+    color: #00b4a5
+}
+
+.simple-link {
+    color: #646464;
+    text-decoration: underline;
+}
+
+.simple-link:hover {
+    color: #000000;
+}
+
+
+/* FOOTER */
+
+.footer-link {
+    color: #FFF8E7;
+}
+
+.footer-link:hover {
+    color: #FFFFFF;
+}
+
+.footer-social-icon {
+    color: #FFF8E7;
+}
+
+.no-underline {
+    text-decoration: none;
+}
+
+/* PROFIL TABLE */
+
+.profil-table {
+    width: 40%;
+}
+
+.profil-table th,
+.profil-table td {
+    vertical-align: middle;
+    text-align: center;
+}
+
+.btn-danger {
+    border-radius: 100px;
+}
+
+/* INDEX PAGE */
+
+.btn-irany {
+    color: #FFF8E7;
+    margin-top: 10px;
+    background-color: #282828;
+    border-color: #282828;
+    width: 25%;
+    min-width: 150px;
+    border-radius: 250px;
+}
+
+.btn-irany:hover {
+    color: #FFF8E7;
+    background-color: #000000;
+    outline-color: #000000;
+}
+
+/* PRODUCTS PAGE*/
+
+.filter-info {
+    display: none;
+}
+
+
+/* PRODUCT PAGE */
+
+.img-adv {
+    border: 7px solid #262626;
+    border-radius: 50px;
+    background-color: #FFF8E7;
+}
+
+/* CART PAGE */
+.cart-mennyiseg {
+    max-width: 100px;
+}
+
+.big-brand {
+    font-size: 100px;
+    font-family: bellagia;
+}
+
+/* PAY PAGE */
+
+.order-id {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+/* MODAL */
+.modal-content {
+    background-color: #FFF8E7;
+    border: 7px solid #262626;
+    /* margin-top: 100px; */
+}
+
+/* QUESTION PAGE */
+
+textarea {
+    resize: none;
+}
+
+/* ADMIN QUESTION PAGE */
+.admin-question-text {
+    width: 700px;
+}
+
+/* 404 PAGE */
+.img-404 {
+    opacity: 0.85;
+    max-width: 25%;
+}
